@@ -5,5 +5,5 @@ before_install:
   - docker build -t annie/docker-react -f Dockerfile.dev .
   - docker run annie/docker-react npm run test -- --coverage
 script:
-  - bundle exec rake test
+  - echo "hello world"
 
